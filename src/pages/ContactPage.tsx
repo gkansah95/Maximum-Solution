@@ -146,7 +146,7 @@ export function ContactPage() {
           type: 'success',
           message:
             data.message ||
-            'Thank you. Your enquiry has been sent to Maximum Solution (Chartered Accounts).',
+            'Thank you. Your enquiry has been sent to Maximum Solutions Chartered Accountants.',
         });
         setForm({
           fullName: '',
@@ -208,7 +208,7 @@ export function ContactPage() {
               Contact Us
             </p>
             <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-white leading-tight">
-              Speak With Maximum Solution (Chartered Accounts).
+              Speak With Maximum Solutions Chartered Accountants.
             </h1>
             <p className="text-base sm:text-lg leading-relaxed text-slate-300 max-w-2xl">
               Submit a statutory auditing enquiry or contact our Accra office directly by telephone

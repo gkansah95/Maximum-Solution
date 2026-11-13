@@ -27,9 +27,9 @@ export interface PrivacySection {
 
 export const companyConfig = {
   identity: {
-    name: 'Maximum Solution (Chartered Accounts)',
-    shortName: 'Maximum Solution',
-    descriptor: 'Chartered Accounts',
+    name: 'Maximum Solutions Chartered Accountants',
+    shortName: 'Maximum Solutions',
+    descriptor: 'Chartered Accountants',
     monogram: 'MS',
     category: 'Statutory Auditors',
     country: 'Ghana',
@@ -117,7 +117,7 @@ export const companyConfig = {
       shortDescription:
         'Structured recording of day-to-day financial transactions, reconciliations, and ledger maintenance.',
       fullDescription:
-        'Configurable placeholder service pending confirmation by Maximum Solution (Chartered Accounts).',
+        'Configurable placeholder service pending confirmation by Maximum Solutions Chartered Accountants.',
       keyFocusAreas: [],
       iconName: 'file-spreadsheet',
       published: false,
@@ -128,7 +128,7 @@ export const companyConfig = {
       shortDescription:
         'Guidance on statutory tax obligations, filing schedules, and regulatory compliance.',
       fullDescription:
-        'Configurable placeholder service pending confirmation by Maximum Solution (Chartered Accounts).',
+        'Configurable placeholder service pending confirmation by Maximum Solutions Chartered Accountants.',
       keyFocusAreas: [],
       iconName: 'landmark',
       published: false,
@@ -139,7 +139,7 @@ export const companyConfig = {
       shortDescription:
         'Accurate payroll computation, statutory deductions administration, and schedule preparation.',
       fullDescription:
-        'Configurable placeholder service pending confirmation by Maximum Solution (Chartered Accounts).',
+        'Configurable placeholder service pending confirmation by Maximum Solutions Chartered Accountants.',
       keyFocusAreas: [],
       iconName: 'users',
       published: false,
@@ -150,7 +150,7 @@ export const companyConfig = {
       shortDescription:
         'Preparation and presentation of structured periodic financial statements for management and stakeholders.',
       fullDescription:
-        'Configurable placeholder service pending confirmation by Maximum Solution (Chartered Accounts).',
+        'Configurable placeholder service pending confirmation by Maximum Solutions Chartered Accountants.',
       keyFocusAreas: [],
       iconName: 'bar-chart-3',
       published: false,
@@ -161,7 +161,7 @@ export const companyConfig = {
       shortDescription:
         'Practical commercial and financial governance perspectives for growing enterprises.',
       fullDescription:
-        'Configurable placeholder service pending confirmation by Maximum Solution (Chartered Accounts).',
+        'Configurable placeholder service pending confirmation by Maximum Solutions Chartered Accountants.',
       keyFocusAreas: [],
       iconName: 'briefcase',
       published: false,
@@ -202,53 +202,53 @@ export const companyConfig = {
   ],
 
   seo: {
-    defaultTitle: 'Maximum Solution (Chartered Accounts) – Statutory Auditors in Accra, Ghana',
+    defaultTitle: 'Maximum Solutions Chartered Accountants – Statutory Auditors in Accra, Ghana',
     defaultDescription:
-      'Maximum Solution (Chartered Accounts) is an Accra-based firm listed under statutory auditors in Ghana. Contact our Palace St office for audit enquiries.',
+      'Maximum Solutions Chartered Accountants is an Accra-based firm listed under statutory auditors in Ghana. Contact our Palace St office for audit enquiries.',
     keywords: [
       'Statutory Auditors in Accra',
-      'Chartered Accounts in Accra',
+      'Chartered Accountants in Accra',
       'Auditing Services in Ghana',
       'Financial Audit Services in Accra',
     ],
     pages: {
       home: {
-        title: 'Maximum Solution (Chartered Accounts) – Statutory Auditors in Accra, Ghana',
+        title: 'Maximum Solutions Chartered Accountants – Statutory Auditors in Accra, Ghana',
         description:
           'Professional statutory auditing and financial assurance enquiries in Accra, Ghana. Visit Palace St, Okaikoi South Sub-Metro or call +233 20 384 9792.',
       },
       about: {
-        title: 'About Us | Maximum Solution (Chartered Accounts) – Accra, Ghana',
+        title: 'About Us | Maximum Solutions Chartered Accountants – Accra, Ghana',
         description:
-          'Learn about Maximum Solution (Chartered Accounts), an Accra-based statutory auditing business committed to integrity, transparency, and financial confidence.',
+          'Learn about Maximum Solutions Chartered Accountants, an Accra-based statutory auditing business committed to integrity, transparency, and financial confidence.',
       },
       services: {
-        title: 'Services | Maximum Solution (Chartered Accounts) – Statutory Auditors',
+        title: 'Services | Maximum Solutions Chartered Accountants – Statutory Auditors',
         description:
-          'Explore statutory auditing services at Maximum Solution (Chartered Accounts) in Accra, Ghana. Independent examination of financial statements for organisations.',
+          'Explore statutory auditing services at Maximum Solutions Chartered Accountants in Accra, Ghana. Independent examination of financial statements for organisations.',
       },
       contact: {
-        title: 'Contact Us | Maximum Solution (Chartered Accounts) – Accra, Ghana',
+        title: 'Contact Us | Maximum Solutions Chartered Accountants – Accra, Ghana',
         description:
-          'Contact Maximum Solution (Chartered Accounts) on Palace St, Okaikoi South Sub-Metro, Accra or call +233 20 384 9792 Monday to Friday, 8:00 AM to 5:00 PM.',
+          'Contact Maximum Solutions Chartered Accountants on Palace St, Okaikoi South Sub-Metro, Accra or call +233 20 384 9792 Monday to Friday, 8:00 AM to 5:00 PM.',
       },
       privacy: {
-        title: 'Privacy Policy | Maximum Solution (Chartered Accounts)',
+        title: 'Privacy Policy | Maximum Solutions Chartered Accountants',
         description:
-          'Read how Maximum Solution (Chartered Accounts) collects, uses, and handles enquiry information submitted through this website.',
+          'Read how Maximum Solutions Chartered Accountants collects, uses, and handles enquiry information submitted through this website.',
       },
     },
   },
 
   privacyPolicy: {
     reviewNotice:
-      'Drafted for corporate website publication and structured for periodic review by Maximum Solution (Chartered Accounts).',
+      'Drafted for corporate website publication and structured for periodic review by Maximum Solutions Chartered Accountants.',
     sections: [
       {
         id: 'overview',
         title: '1. Purpose of This Privacy Policy',
         paragraphs: [
-          'Maximum Solution (Chartered Accounts), located at Palace St, Okaikoi South Sub-Metro, Greater Accra Region, Accra, Ghana, respects the privacy of visitors who browse this website or submit business enquiries.',
+          'Maximum Solutions Chartered Accountants, located at Palace St, Okaikoi South Sub-Metro, Greater Accra Region, Accra, Ghana, respects the privacy of visitors who browse this website or submit business enquiries.',
           'This Privacy Policy explains what information is collected through our website enquiry form, why it is collected, how it is handled, and how you may contact our office regarding your personal information.',
         ],
       },
@@ -279,7 +279,7 @@ export const companyConfig = {
         id: 'handling-and-retention',
         title: '4. How Enquiry Information Is Handled',
         paragraphs: [
-          'Submitted enquiries are transmitted via a configured server-side email delivery provider directly to the designated office mailbox of Maximum Solution (Chartered Accounts). We apply input validation and automated spam-prevention checks before processing submissions.',
+          'Submitted enquiries are transmitted via a configured server-side email delivery provider directly to the designated office mailbox of Maximum Solutions Chartered Accountants. We apply input validation and automated spam-prevention checks before processing submissions.',
           'Enquiry correspondence is retained only for as long as reasonably required to address your request or maintain ordinary business communication records.',
         ],
       },

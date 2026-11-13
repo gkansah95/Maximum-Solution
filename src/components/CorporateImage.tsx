@@ -16,7 +16,7 @@ export function CorporateImage({
   className = 'h-full w-full object-cover',
   containerClassName = '',
   loading = 'lazy',
-  fallbackTitle = 'Maximum Solution (Chartered Accounts)',
+  fallbackTitle = 'Maximum Solutions Chartered Accountants',
 }: CorporateImageProps) {
   const [hasError, setHasError] = useState(false);
 

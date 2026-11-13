@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import express, { Request, Response } from 'express';
+import express, { type Request, type Response } from 'express';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -167,7 +167,7 @@ app.post('/api/contact', async (req: Request, res: Response) => {
   }
 
   const textBody = [
-    'New Website Enquiry – Maximum Solution (Chartered Accounts)',
+    'New Website Enquiry – Maximum Solutions Chartered Accountants',
     '------------------------------------------------------------',
     `Full Name: ${fullName}`,
     `Company / Organisation: ${organisation || 'Not provided'}`,
@@ -184,7 +184,7 @@ app.post('/api/contact', async (req: Request, res: Response) => {
     <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #243244; max-width: 640px; margin: 0 auto; padding: 24px;">
       <div style="border-bottom: 2px solid #10243A; padding-bottom: 12px; margin-bottom: 20px;">
         <h2 style="margin: 0; color: #10243A; font-size: 20px;">New Website Enquiry</h2>
-        <p style="margin: 4px 0 0; color: #526071; font-size: 13px;">Maximum Solution (Chartered Accounts)</p>
+        <p style="margin: 4px 0 0; color: #526071; font-size: 13px;">Maximum Solutions Chartered Accountants</p>
       </div>
       <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
         <tr><td style="padding: 8px 0; font-weight: 600; width: 180px; color: #10243A;">Full Name:</td><td style="padding: 8px 0;">${escapeHtml(fullName)}</td></tr>
@@ -231,7 +231,7 @@ app.post('/api/contact', async (req: Request, res: Response) => {
     return res.status(200).json({
       ok: true,
       message:
-        'Thank you. Your enquiry has been received by Maximum Solution (Chartered Accounts). Our office will respond during business hours.',
+        'Thank you. Your enquiry has been received by Maximum Solutions Chartered Accountants. Our office will respond during business hours.',
     });
   } catch (err) {
     console.error('Contact submission error:', err);
@@ -270,7 +270,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Maximum Solution server listening on http://0.0.0.0:${PORT}`);
+    console.log(`Maximum Solutions Chartered Accountants server listening on http://0.0.0.0:${PORT}`);
   });
 }
 

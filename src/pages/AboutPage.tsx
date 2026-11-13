@@ -207,7 +207,7 @@ export function AboutPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row md:items-center justify-between gap-8">
           <div className="space-y-2 max-w-xl">
             <h2 className="text-2xl sm:text-3xl font-bold text-white">
-              Connect with Maximum Solution.
+              Connect with Maximum Solutions.
             </h2>
             <p className="text-slate-300 text-base">
               Speak with our Accra office to discuss your organisation&apos;s statutory auditing
