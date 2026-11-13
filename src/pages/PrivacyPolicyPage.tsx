@@ -11,7 +11,7 @@ export function PrivacyPolicyPage() {
         description={companyConfig.seo.pages.privacy.description}
       />
 
-      <section className="bg-[#0B1929] text-white pt-32 pb-14 sm:pt-36 sm:pb-16">
+      <section className="bg-[#0B1929] text-white pt-36 pb-14 sm:pt-40 sm:pb-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-widest text-[#C6A15B] mb-3">
             Legal &amp; Data Handling

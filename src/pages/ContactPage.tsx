@@ -201,7 +201,7 @@ export function ContactPage() {
       />
 
       {/* Page Header */}
-      <section className="bg-[#0B1929] text-white pt-32 pb-16 sm:pt-36 sm:pb-20">
+      <section className="bg-[#0B1929] text-white pt-36 pb-16 sm:pt-40 sm:pb-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl space-y-4">
             <p className="text-xs font-semibold uppercase tracking-widest text-[#C6A15B]">

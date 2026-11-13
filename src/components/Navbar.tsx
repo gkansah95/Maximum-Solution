@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { BrandLogo } from './BrandLogo';
+import { DemoBanner } from './DemoBanner';
 
 const navLinks = [
   { to: '/', label: 'Home' },
@@ -42,14 +43,16 @@ export function Navbar() {
   const isTransparentHero = isHome && !scrolled && !mobileOpen;
 
   return (
-    <header
-      className={`fixed inset-x-0 top-0 z-50 transition-colors duration-200 ${
-        isTransparentHero
-          ? 'bg-[#0B1929]/70 backdrop-blur-md border-b border-white/10'
-          : 'bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-xs'
-      }`}
-    >
-      <div className="mx-auto flex h-16 sm:h-[72px] max-w-6xl items-center justify-between gap-8 px-4 sm:px-6 lg:px-8">
+    <div className="fixed inset-x-0 top-0 z-50">
+      <DemoBanner />
+      <header
+        className={`transition-colors duration-200 ${
+          isTransparentHero
+            ? 'bg-[#0B1929]/75 backdrop-blur-md border-b border-white/10'
+            : 'bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-xs'
+        }`}
+      >
+        <div className="mx-auto flex h-14 sm:h-[68px] max-w-6xl items-center justify-between gap-8 px-4 sm:px-6 lg:px-8">
         {/* Zone 1: Brand wordmark (single line, clean lockup) */}
         <BrandLogo variant={isTransparentHero ? 'light' : 'dark'} />
 
@@ -151,6 +154,7 @@ export function Navbar() {
           </div>
         </div>
       )}
-    </header>
+      </header>
+    </div>
   );
 }

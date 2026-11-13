@@ -58,7 +58,7 @@ export function HomePage() {
       />
 
       {/* B. Hero Section */}
-      <section className="relative min-h-[620px] lg:min-h-[680px] flex items-center bg-[#0B1929] text-white overflow-hidden pt-20">
+      <section className="relative min-h-[620px] lg:min-h-[680px] flex items-center bg-[#0B1929] text-white overflow-hidden pt-28 sm:pt-32">
         <div className="absolute inset-0">
           <CorporateImage
             src={heroOfficeImg}

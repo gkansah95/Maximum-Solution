@@ -19,6 +19,8 @@ export function PageHead({ title, description }: PageHeadProps) {
       element.setAttribute('content', content);
     };
 
+    updateMeta('meta[name="robots"]', 'name', 'robots', 'noindex, nofollow');
+    updateMeta('meta[name="googlebot"]', 'name', 'googlebot', 'noindex, nofollow');
     updateMeta('meta[name="description"]', 'name', 'description', description);
     updateMeta('meta[property="og:title"]', 'property', 'og:title', title);
     updateMeta('meta[property="og:description"]', 'property', 'og:description', description);

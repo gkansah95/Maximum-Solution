@@ -1,6 +1,8 @@
 {
-  "name": "Maximum Solution (Chartered Accounts)",
-  "description": "Corporate website for Maximum Solution (Chartered Accounts), statutory auditors based in Accra, Ghana.",
+  "name": "Maximum Solutions Chartered Accountants",
+  "description": "Corporate website for Maximum Solutions Chartered Accountants, statutory auditors based in Accra, Ghana.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

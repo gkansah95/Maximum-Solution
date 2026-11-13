@@ -11,6 +11,10 @@ const app = express();
 const PORT = Number(process.env.PORT) || 3000;
 
 app.set('trust proxy', 1);
+app.use((_req, res, next) => {
+  res.setHeader('X-Robots-Tag', 'noindex, nofollow');
+  next();
+});
 app.use(express.json({ limit: '64kb' }));
 
 // Simple in-memory rate limiter for contact submissions (5 requests per 15 minutes per IP)

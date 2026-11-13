@@ -11,7 +11,7 @@ export function NotFoundPage() {
         description="The requested page could not be found."
       />
 
-      <section className="bg-[#F5F7FA] min-h-[70vh] flex items-center pt-28 pb-20">
+      <section className="bg-[#F5F7FA] min-h-[70vh] flex items-center pt-36 pb-20">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center space-y-6">
           <p className="text-xs font-semibold uppercase tracking-widest text-[#0F766E] tabular-nums">
             Error 404
